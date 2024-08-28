@@ -44,3 +44,9 @@ h2 {
 .submitBtn:hover {
     background-color: #0056b3;
 }
+
+.errorText {
+    color: #ff4d4d;
+    font-size: 14px;
+    margin-top: 5px;
+}
