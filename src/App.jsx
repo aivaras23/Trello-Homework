@@ -1,9 +1,10 @@
+import Registration from "./components/Registration"
 function App() {
 
   return (
     <>
       <div>
-        Test
+        <Registration/>
       </div>
     </>
   )
