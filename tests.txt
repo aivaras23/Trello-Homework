@@ -16,3 +16,28 @@
 - Last name can not contain numbers
 - Last name can contain only "-" special symbols
 - There could be several words in Last name field
+
+
+###  Email Field Validation
+
+- Email should contain an "@" symbol and a domain name.
+- Email should not contain spaces.
+- Email should have valid format (e.g 'user@gmail.com, user@yandex.ru)
+- Email should not start or end with special characters (e.g ".", "-", "_", "$", etc.)
+- Invalid email format (e.g 'user@', "user@zef2") should display an error message
+Conclusion: The form should not submit with an invalid email and should display an error message. It should submit without issue when a valid email is provided.
+
+### Password Field Functionality
+- Password should be at least 8 characters long
+- Password should contain at least one uppercase letter.
+- Password should contain at least one lowercase letter.
+- Password should contain at least one digit
+- Password should contain at least once special character (e.g "@", "#", "$", etc.).
+- Password should not contain spaces.
+- Password should not be too common or easily guessable like "123456"
+Conclusion: The form should not submit if the password is too short or too weak, showing an error message. It should only accept and submit a strong password.
+
+### Confirm Password Field Functionality
+- Confirm Password should exactly match the Password field.
+- If Confirm Password does not match Password, an error message should be displayed (e.g "Password do not match").
+Conclusion: The form should not submit if the passwords don't match, otherwise it should submit without any issues.
