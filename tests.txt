@@ -1,0 +1,18 @@
+### First Name field functionality:
+
+- First name should start with upper case
+- First name should be at least 1 symbol length (field can not be left empty)
+- 
+- First name can not contain numbers
+- First name can not contain special symbols(s)
+- There could be several words in First name field
+
+
+### Last Name field functionality:
+
+- Last name should start with upper case
+- Last name should be at least 1 symbol length (field can not be left empty)
+- 
+- Last name can not contain numbers
+- Last name can contain only "-" special symbols
+- There could be several words in Last name field
