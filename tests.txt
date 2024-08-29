@@ -14,7 +14,7 @@
 - Last name should be at least 1 symbol length (field can not be left empty)
 - Last name can not contain numbers
 - Last name can contain only "-" special symbols
-- Last name can not contain spa
+- Last name can not contain space
 - First name can be written only in Latin
 
 
