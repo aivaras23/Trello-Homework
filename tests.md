@@ -183,3 +183,32 @@
 **Expected results**
 
 - Error message appears and registration can not be finished
+
+# Register Button functionality
+
+## Pressing Registration button
+
+**Requirements**
+
+1. Register button should be disabled until all required fields are filled out correctly
+1. Register button should be enabled only when all fields (First Name, Last Name, Email, Password, Confirm Password) pass validation
+
+**Steps**
+
+- Fill all the fields according to the requirements
+
+**Expected results**
+
+- No error found
+- Registration form is submitting and user is redirecting to the specified page
+
+## Pressing Registration button with blank fields
+
+**Steps**
+
+- Leave one field not filled
+
+**Expected results**
+
+- Registration button is disabled
+- Registration form is not submitted
