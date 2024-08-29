@@ -43,3 +43,9 @@ Conclusion: The form should not submit if the password is too short or too weak,
 - Confirm Password should exactly match the Password field.
 - If Confirm Password does not match Password, an error message should be displayed (e.g "Password do not match").
 Conclusion: The form should not submit if the passwords don't match, otherwise it should submit without any issues.
+
+### Register Button Functionality 
+- The Register button should be disabled until all required fields are filled out correctly.
+- The Register button should be enabled only when all fields (First Name, Last Name, Email, Password, Confirm Password) pass validation.
+- Clicking the Register button with valid inputs should submit the form and redirect to the specified page
+Conclusion: The form should not submit if any field is incorrect. If every field passes validation, then the form should submit and redirect to a specific page (e.g the home page).
