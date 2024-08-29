@@ -1,21 +1,21 @@
 ### First Name field functionality:
 
-- First name should start with upper case
+- First name should start with capital letter
 - First name should be at least 1 symbol length (field can not be left empty)
-- 
 - First name can not contain numbers
-- First name can not contain special symbols(s)
+- First name can contain space only between words, field can not begin or end with space
 - There could be several words in First name field
+- First name can be written only in Latin
 
 
 ### Last Name field functionality:
 
-- Last name should start with upper case
+- Last name should start with capital letter
 - Last name should be at least 1 symbol length (field can not be left empty)
-- 
 - Last name can not contain numbers
 - Last name can contain only "-" special symbols
-- There could be several words in Last name field
+- Last name can not contain spa
+- First name can be written only in Latin
 
 
 ###  Email Field Validation
@@ -24,6 +24,8 @@
 - Email should not contain spaces.
 - Email should have valid format (e.g 'user@gmail.com, user@yandex.ru)
 - Email should not start or end with special characters (e.g ".", "-", "_", "$", etc.)
+- Email can be written only in Latin
+- Email field can not be left empty
 - Invalid email format (e.g 'user@', "user@zef2") should display an error message
 Conclusion: The form should not submit with an invalid email and should display an error message. It should submit without issue when a valid email is provided.
 
