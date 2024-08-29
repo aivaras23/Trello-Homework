@@ -186,7 +186,7 @@
 
 # Register Button functionality
 
-## Pressing Registration button
+## Ckicking Registration button
 
 **Requirements**
 
@@ -202,7 +202,7 @@
 - No error found
 - Registration form is submitting and user is redirecting to the specified page
 
-## Pressing Registration button with blank fields
+## Clicking Registration button with blank fields
 
 **Steps**
 
