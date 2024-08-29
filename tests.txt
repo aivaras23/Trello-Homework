@@ -34,7 +34,7 @@ Conclusion: The form should not submit with an invalid email and should display 
 - Password should contain at least one uppercase letter.
 - Password should contain at least one lowercase letter.
 - Password should contain at least one digit
-- Password should contain at least once special character (e.g "@", "#", "$", etc.).
+- Password should contain at least one special character (e.g "@", "#", "$", etc.).
 - Password should not contain spaces.
 - Password should not be too common or easily guessable like "123456"
 Conclusion: The form should not submit if the password is too short or too weak, showing an error message. It should only accept and submit a strong password.
